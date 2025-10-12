@@ -145,17 +145,20 @@ export default defineConfig({
         text: '导航',
         items: [
           { text: '介绍', link: '/intro' },
-          { text: '新闻和消息', link: '/news' },
+          { text: '新闻和消息', link: '/news', },
         ]
       },
       {
         text: '测试服消息',
         items: [
-          { text: 'Alpha测试', link: '/Midnight/Alpha测试' },
+          { text: 'Alpha测试', link: '/Midnight/Alpha测试', },
         ]
       },
       {
-        text: '军团再临Remix笔记', link: '/LegionRemix'
+        text: '军团再临Remix',
+        items: [
+          { text: '简易笔记', link: '/LegionRemix', },
+        ]
       }
     ],
 
