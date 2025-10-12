@@ -126,6 +126,12 @@ export default defineConfig({
   title: 'WoW Playbook',
   description: '魔兽世界攻略文档',
 
+  // GitHub Pages 部署需要设置 base
+  // 如果部署到 https://<USERNAME>.github.io/<REPO>/
+  // 请将 base 设置为 '/<REPO>/'
+  // 例如：base: '/WowPlaybook/'
+  base: '/WowPlaybook/',
+
   appearance: 'dark',
 
   themeConfig: {
