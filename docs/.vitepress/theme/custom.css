@@ -1,0 +1,4 @@
+/* Wowhead link 样式 - 移除下划线 */
+a.wowhead-link {
+  text-decoration: none !important;
+}
