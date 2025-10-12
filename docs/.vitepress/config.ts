@@ -163,7 +163,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yourusername/wowplaybook' }
+      { icon: 'github', link: 'https://github.com/gateswong/wowplaybook' }
     ]
   },
 
