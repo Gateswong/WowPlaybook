@@ -31,7 +31,9 @@ function wowheadLinksPlugin(md: MarkdownIt) {
       const typeMap: { [key: string]: string } = {
         's': 'spell',
         'i': 'item',
-        'q': 'quest'
+        'q': 'quest',
+        'z': 'zone',
+        'n': 'npc',
       }
 
       const type = typeMap[typeAbbr]
@@ -113,7 +115,8 @@ function wowheadLinksPlugin(md: MarkdownIt) {
 
       // 生成 HTML 标签
       const token = state.push('html_inline', '', 0)
-      token.content = `<a href="#" class="wowhead-link" ${dataRenameWowhead} data-wowhead="${dataWowhead}" data-wowhead-type="${type}" data-wowhead-id="${id}">${text}</a>`
+      const wowheadUrl = `https://${defaultDomain}.wowhead.com/${type}=${id}`
+      token.content = `<a href="${wowheadUrl}" class="wowhead-link" ${dataRenameWowhead} data-wowhead="${dataWowhead}" data-wowhead-type="${type}" data-wowhead-id="${id}">${text}</a>`
     }
 
     // 移动位置指针
@@ -123,7 +126,7 @@ function wowheadLinksPlugin(md: MarkdownIt) {
 }
 
 export default defineConfig({
-  title: 'WoW Playbook',
+  title: '魔兽世界手记',
   description: '魔兽世界攻略文档',
 
   // GitHub Pages 部署需要设置 base
@@ -158,6 +161,12 @@ export default defineConfig({
         text: '军团再临Remix',
         items: [
           { text: '简易笔记', link: '/LegionRemix', },
+        ]
+      },
+      {
+        text: 'Paruru的游戏配置',
+        items: [
+          { text: '界面设置', link: '/Paruru的游戏配置/界面设置'}
         ]
       }
     ],

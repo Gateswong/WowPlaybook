@@ -21,6 +21,11 @@
 /cast [known:1233577] Call of the Forest; [known:1237711] Twisted Crusade; [known:1233775] Naran's Everdisc; [known:1233181] Tempest Wrath; [known:1251045] Vindicator's Judgment;
 ```
 
+## 每天的事项
+
+- 永恒研究：在永恒集市找<n=241748>接取永恒研究任务。每次最多接3个，每天刷新6个，可以存18个。
+
+
 ## 提升指南
 
 来自[Lemix gearing + levelling guide - Clenchette](https://www.reddit.com/r/wow/comments/1o3iccl/lemix_gearing_levelling_guide_clenchette/) （[NGA的翻译帖](https://bbs.nga.cn/read.php?tid=45320841)）
