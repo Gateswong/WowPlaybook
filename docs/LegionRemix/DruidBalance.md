@@ -16,7 +16,11 @@ CYGAkuH5GdQpDrgY32rlVGnyqBAAAAAAAAAAAAAAAAAALUmtmxYmBeAzCLzMzCMGzYmlxsMzMMmtZWGz
 
 选择第一行<s=1233577>。
 
+### 装备选择
+
 首饰类装备选择一定要带一个移动施法（<s=1241854>或<s=1258587>）。其他随意。
+
+属性部位全带精通。其中头、肩膀和披风要全精通。
 
 ## 手法
 
