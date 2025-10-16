@@ -129,11 +129,9 @@ export default defineConfig({
   title: '魔兽世界手记',
   description: '魔兽世界攻略文档',
 
-  // GitHub Pages 部署需要设置 base
-  // 如果部署到 https://<USERNAME>.github.io/<REPO>/
-  // 请将 base 设置为 '/<REPO>/'
-  // 例如：base: '/WowPlaybook/'
-  base: '/WowPlaybook/',
+  // 自定义域名部署，base 设置为根路径
+  // 如果使用 GitHub Pages 子路径部署，需要设置为 '/<REPO>/'
+  base: '/',
 
   appearance: 'dark',
 
