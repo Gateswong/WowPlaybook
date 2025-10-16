@@ -161,6 +161,7 @@ export default defineConfig({
         text: '军团再临Remix',
         items: [
           { text: '简易笔记', link: '/LegionRemix', },
+          { text: '德鲁伊/平衡', link: '/LegionRemix/DruidBalance', }
         ]
       },
       {
