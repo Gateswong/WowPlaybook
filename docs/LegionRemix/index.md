@@ -14,11 +14,18 @@
 /run SocketInventoryItem(16)
 ```
 
-多合一的神器技能宏
+五合一的神器技能（英文）
 
 ```
 #showtooltip
 /cast [known:1233577] Call of the Forest; [known:1237711] Twisted Crusade; [known:1233775] Naran's Everdisc; [known:1233181] Tempest Wrath; [known:1251045] Vindicator's Judgment;
+```
+
+五合一神器技能（中文）
+
+```
+#showtooltip
+/cast [known:1233577] 森林的召唤; [known:1237711] 扭曲的远征; [known:1233775] 纳兰的永恒圆盘; [known:1233181] 怒雷风暴; [known:1251045] 守备官的审判;
 ```
 
 ## 玩法规划
