@@ -150,8 +150,9 @@ export default defineConfig({
         ]
       },
       {
-        text: '测试服消息',
+        text: '至暗之夜',
         items: [
+          { text: '专业', link: '/Midnight/专业技能'},
           { text: 'Alpha测试', link: '/Midnight/Alpha测试', },
         ]
       },
@@ -165,7 +166,9 @@ export default defineConfig({
       {
         text: 'Paruru的游戏配置',
         items: [
-          { text: '界面设置', link: '/Paruru的游戏配置/界面设置'}
+          { text: '界面设置', link: '/Paruru的游戏配置/界面设置'},
+          { text: '战斗类插件', link: '/Paruru的游戏配置/战斗类插件'},
+          { text: '辅助类插件', link: '/Paruru的游戏配置/辅助类插件'},
         ]
       }
     ],
