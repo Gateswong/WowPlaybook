@@ -34,6 +34,7 @@ function wowheadLinksPlugin(md: MarkdownIt) {
         'q': 'quest',
         'z': 'zone',
         'n': 'npc',
+        'c': 'currency',
       }
 
       const type = typeMap[typeAbbr]
@@ -152,7 +153,7 @@ export default defineConfig({
       {
         text: '至暗之夜',
         items: [
-          { text: '专业', link: '/Midnight/专业技能'},
+          { text: '制造业', link: '/Midnight/制造业'},
           { text: 'Alpha测试', link: '/Midnight/Alpha测试', },
         ]
       },
