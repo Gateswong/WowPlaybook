@@ -174,8 +174,7 @@ export default defineConfig({
         text: "Paruru的游戏配置",
         items: [
           { text: "界面设置", link: "/Paruru的游戏配置/界面设置" },
-          { text: "战斗类插件", link: "/Paruru的游戏配置/战斗类插件" },
-          { text: "辅助类插件", link: "/Paruru的游戏配置/辅助类插件" },
+          { text: "实用宏命令", link: "/Paruru的游戏配置/实用宏命令" },
         ],
       },
     ],
