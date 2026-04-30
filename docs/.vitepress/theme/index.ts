@@ -2,6 +2,7 @@ import DefaultTheme from 'vitepress/theme'
 import { Theme } from 'vitepress'
 import { h } from 'vue'
 import WowheadLanguageSwitch from './components/WowheadLanguageSwitch.vue'
+import CopyBox from './components/CopyBox.vue'
 import './custom.css'
 
 let scriptLoaded = false
@@ -14,6 +15,7 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
+    app.component('CopyBox', CopyBox)
     if (typeof window !== 'undefined') {
       // 在 enhanceApp 阶段立即初始化
       initWowheadLinks()

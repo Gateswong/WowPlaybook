@@ -138,29 +138,32 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: "首页", link: "/" },
-      { text: "新闻和消息", link: "/news" },
+      { text: "攻略本", link: "/fav" },
+      { text: "至暗之夜第1赛季", link: "/12.0" },
     ],
 
     sidebar: [
       {
-        text: "导航",
-        items: [
-          { text: "介绍", link: "/intro" },
-          { text: "新闻和消息", link: "/news" },
-        ],
+        text: "攻略本", link: "/fav",
       },
       {
-        text: "至暗之夜",
+        text: "至暗之夜第1赛季",
         items: [
-          { text: "制造业", link: "/Midnight/制造业" },
-          { text: "Alpha测试", link: "/Midnight/Alpha测试" },
-          {
-            text: "赚金思路",
+          { text: "总览", link: "/12.0"},
+          { text: "职业学习", 
             items: [
-              { text: "每日剥皮威风野兽", link: "/Midnight/每日剥皮威风野兽" },
-            ],
-          },
+              { text: "平衡德鲁伊", link: "/12.0/BalanceDruid", },
+              { text: "恢复德鲁伊", link: "/12.0/RestorDruid", },
+              { text: "邪恶死亡骑士", link: "/12.0/UnholyDK", },
+            ]
+          }
+        ]
+      },
+      {
+        text: "游戏配置",
+        items: [
+          { text: "界面", link: "/Setup/ui" },
+          { text: "宏命令", link: "/Setup/macros" },
         ],
       },
       {
@@ -168,13 +171,6 @@ export default defineConfig({
         items: [
           { text: "简易笔记", link: "/LegionRemix" },
           { text: "德鲁伊/平衡", link: "/LegionRemix/DruidBalance" },
-        ],
-      },
-      {
-        text: "Paruru的游戏配置",
-        items: [
-          { text: "界面设置", link: "/Paruru的游戏配置/界面设置" },
-          { text: "实用宏命令", link: "/Paruru的游戏配置/实用宏命令" },
         ],
       },
     ],

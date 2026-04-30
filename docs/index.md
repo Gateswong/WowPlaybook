@@ -2,25 +2,24 @@
 layout: home
 
 hero:
-  name: "神仙的魔兽笔记"
-  tagline: “业余”的攻略和指南
+  name: "Paruru的魔兽笔记"
+  tagline: 
   actions:
     - theme: brand
-      text: 开始阅读
-      link: /guide/
+      text: WCL
+      link: https://www.warcraftlogs.com/character/id/77566127
     - theme: alt
-      text: 值得注意的新闻和消息
-      link: /news
+      text: RaiderIO
+      link: https://raider.io/characters/us/illidan/Paruru
 
 features:
-  - title: 新闻备查
-    details: 快速备查感兴趣的新闻
-  - title: 职业学习
-    details: 记录学习职业的笔记心得
-  - title: 副本学习
-    details: 记录副本机制和攻略
-  - title: 传送门：军团Remix追踪工具
-    link: https://wowchievement.com/
-  - title: 军团Remix的笔记
-    link: /LegionRemix/index
+  - title: 攻略收藏
+    details: 收藏论坛帖子和攻略文章
+    link: /news/
+  - title: 至暗之夜第1赛季
+    details: 赛季笔记
+    link: /12.0/
+  - title: 游戏配置
+    details: 界面、插件配置
+    link: /Setup/ui
 ---
