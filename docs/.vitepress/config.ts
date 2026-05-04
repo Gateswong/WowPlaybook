@@ -156,6 +156,9 @@ export default defineConfig({
               { text: "恢复德鲁伊", link: "/12.0/RestorDruid", },
               { text: "邪恶死亡骑士", link: "/12.0/UnholyDK", },
             ]
+          },
+          {
+            text: "赚金币方法", link: "/12.0/Gold",
           }
         ]
       },
