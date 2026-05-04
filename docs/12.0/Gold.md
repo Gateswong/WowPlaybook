@@ -18,3 +18,9 @@
 攻略 --> https://www.bilibili.com/video/BV1AkQxB3EdX/
 
 每小时10宁心花制作注能护土然后采集任意草药即可。
+
+## 守卫符文石
+
+攻略 --> https://www.bilibili.com/video/BV1eH9bBuEzn/
+
+每周除了卡状态的3个之外，每角色约8000金。
