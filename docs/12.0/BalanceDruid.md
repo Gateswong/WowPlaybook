@@ -38,3 +38,7 @@
 /cast [@cursor] 超凡之盟;
 /cast [@focus] 激活
 ```
+
+动作条
+
+![ActionBar](BalanceDruidActionBar.png)
