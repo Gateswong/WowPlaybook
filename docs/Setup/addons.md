@@ -1,6 +1,6 @@
 # 插件配置
 
-- [STT]() ([战术板语法](https://docs.qq.com/doc/DSFBSRk94TGdDRHNn?nlc=1)) - 团队战术板+语音播报
+- [ShengTangTools](https://www.curseforge.com/wow/addons/shengtangtools) ([战术板语法](https://docs.qq.com/doc/DSFBSRk94TGdDRHNn?nlc=1)) - 团队战术板+语音播报
 - [KP_DashMeter](https://nga.178.com/read.php?tid=46296723) - 伤害统计
 - [ExwindTools](https://www.curseforge.com/wow/addons/exwindtools) [ExBoss](https://www.curseforge.com/wow/addons/exboss) - 自动开启日志
 - [DandersFrames](https://www.curseforge.com/wow/addons/danders-frames) - 团队框架
