@@ -158,6 +158,12 @@ export default defineConfig({
             ]
           },
           {
+            text: "团本",
+            items: [
+              { text: "M8", link: "/12.0/RaidM8", },
+            ],
+          },
+          {
             text: "赚金币方法", link: "/12.0/Gold",
           }
         ]
